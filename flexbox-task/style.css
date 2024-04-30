@@ -1,0 +1,136 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: 0;
+}
+
+html, body {
+    background-color: #302f2f;
+    color: #ffffff;
+    height : 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1{
+    color:gold;
+    font-size: 3rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #1367a8;
+    color: #ffffff;
+    height: 20px;
+    font-size: 1.25rem;
+}
+
+.navbar .div1 img {
+    height: 30px;
+    width:  60px;
+    margin-top: -5px;
+}
+
+.wrapper {
+    width: 80vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.flex-defination{
+    align-self: flex-start;
+}
+
+p{
+    text-indent: 50px;
+}
+
+ul{
+    margin-left: 100px;
+}
+
+ul li{
+    line-height: 25px;
+}
+
+.flex-properties {
+    align-self: flex-start;
+}
+
+.flex-start {
+    align-self: start;
+}
+
+.flex-justify-outer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    background-color:#424242;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* justify */
+
+.justify-content-start{
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.justify-content-end{
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+/* align */
+.align-content-outer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color:#424242;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.align-content-start{
+    align-items: start;
+    justify-content: center;
+}
+.align-content-between{
+    align-items: center;
+    justify-content: center;
+}
+.align-content-end{
+    align-items: end;
+    justify-content: center;
+}
+
+
+.flex-item {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  margin: 5px;
+  color:#000;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
